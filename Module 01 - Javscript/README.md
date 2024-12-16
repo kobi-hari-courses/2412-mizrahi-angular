@@ -186,6 +186,36 @@ for(var x of a) {
 ```
 
 
+## The 'new' keyword - It's not what you think
+* There are no classes in Javascript... The word `new` comes from Object Oriented Programming, what is it doing in JS?
+* `new` creates a new Object
+* It also runs a function
+* `new bla()` - runs the `bla` function, but before, it creates a new object.
+* **EVERY** function can be called with new. 
+* The object that was created, "remembers" the function that created it. 
+* The function that created it becomes it's "constructor".
+* So EVERY function can be called, either with or without the word `new`
+* Can a constructor have access to the object that was created?
+    * Yes, using the `this` keyword
+
+```javascript
+function Person(name) {
+    var words = name.split(' ');
+    this.firstName = words[0];
+    this.lastName = words[1];
+}
+```
+
+* But hold on... We can call every function WITHOUT the word `new` as well... 
+
+* So what happens in this code:
+```javascript
+var p = Person('John Smith');
+```
+
+
+
+
 
 
         
