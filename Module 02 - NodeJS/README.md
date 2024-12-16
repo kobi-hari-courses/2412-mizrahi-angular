@@ -3,7 +3,7 @@
 ## Projects
 |     |     |
 | --- | --- |
-| [fun-with-node](projects/fun-with-node-js/) | Introduction to NodeJS and npm |
+| [fun-with-node-js](projects/fun-with-node-js/) | Introduction to NodeJS and npm |
 | [fun-with-ts](./projects/fun-with-ts) | Introduction to Typescript | 
 
 
