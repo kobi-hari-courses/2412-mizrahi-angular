@@ -1,12 +1,33 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'hello-angular';
+  // data
+  keyword: string = '';
+  results: string[] = [];
+  isBusy: boolean = false;
+
+  // actions
+  setKeyword(keyword: string) {
+    this.keyword = keyword;
+  }
+
+  search() {
+    this.isBusy = true;
+
+    setTimeout(() => {
+      this.isBusy = false;
+      this.results = [
+        this.keyword.toUpperCase(), 
+        this.keyword.toLowerCase(),
+        `**${this.keyword}**`
+      ]
+    }, 5000);
+  }
+
+
 }
