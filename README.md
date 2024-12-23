@@ -8,8 +8,18 @@
 ## Exercises
 [Home Exercises Repo](https://github.com/kobi-hari-courses/angular-exercises)
 
+### Module 02 - Node and Typescript
+#### Class Exercise
 * [Module 02 - Practice NodeJS, npm and TS](./Module%2002%20-%20NodeJS/exercises/README.md)
+
+#### Home Exercise
 * [Typescript home exercise](https://github.com/kobi-hari-courses/modern-angular-exercises/blob/main/ex01-typescript/README.md)
+
+
+### Module 03 - Anuglar Basics, and Signals
+#### Class Exercise
 * [Module 03 - Exercises](./module%2003%20-%20hello%20angular/exercises/README.md)
+
+#### Home Exercise
 * [Todo App - Basic Angular](https://github.com/kobi-hari-courses/modern-angular-exercises/blob/main/ex02-angular-basics/README.md)
 * [Guessing Game App - Basic Angular](https://github.com/kobi-hari-courses/modern-angular-exercises/tree/main/ex03-angular-basics)
