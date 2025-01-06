@@ -3,9 +3,13 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "change-detection": {
+    "fun-with-signals": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,13 +17,13 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/change-detection",
+            "outputPath": "dist/fun-with-signals",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
-              "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -27,7 +31,7 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -59,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "change-detection:build:production"
+              "buildTarget": "fun-with-signals:build:production"
             },
             "development": {
-              "buildTarget": "change-detection:build:development"
+              "buildTarget": "fun-with-signals:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,10 +78,9 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "polyfills": [
-              "zone.js",
-              "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
+            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -85,7 +88,7 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }

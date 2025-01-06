@@ -1,12 +1,10 @@
-# Module 3 - Introduction Angular, and Signals
+# Module 3 - Introduction Angular
 
 ## Projects:
 |     |     |
 | --- | --- |
 | [Hello Angular](./projects/hello-angular/) | Bare bones angular application |
 | [Notepad](./projects/notepad/) | Angular Directives and CSS Layout |
-| [Change Detection](./projects/change-detection/) | Angular Change Detection, Zone and Signals |
-
 
 
 ### Angular from way above
@@ -122,18 +120,4 @@ ng serve
 * We have created a list of items in the HTML, and allowed to select color, size and font
 * We have used fancy CSS to decorate it and make the app look nice
 * We have learned about [class.XXX] and [style.XXX] directives
-
-### Change Detection in Angular
-* We talked about the **Magic** behind angulars change detection
-* We talked about threads, tasks, and how zone.js works
-* We understood that the automatic change detection is wasteful and not performant and especially - why
-* We saw how to disable automatic change detection using the decorator property: `changeDetection` and the ChangeDetectionStrategy enumeration
-* We saw how to use signals so that we do not rely on change detection at all
-
-### Introduction to signals
-* We saw how to use the `signal(value)` function to create a signal wrapper around a value
-* We saw how to use the `signal.set` and `signal.update` methods to modify the value.
-    - `.set` - to set a new value
-    - `.update` - to set a value that the depends on the old value
-* We saw how to derive computed values using `signal.computed`
 
