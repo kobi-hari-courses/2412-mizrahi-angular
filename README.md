@@ -20,8 +20,7 @@ All home exercises are in the [Home Exercises Repo](https://github.com/kobi-hari
 ## Module 3 - Introduction to Angular
 * [Daily Summary](./module%2003%20-%20hello%20angular/README.md)
 * [Class Exercise](./module%2003%20-%20hello%20angular/exercises/README.md)
-* Home Exercises:
-    * 
+
 ### Module 04 - Signals
 * [Daily Summary](./module%2004%20-%20signals/README.md)
 * [Class Exercises](./module%2004%20-%20signals/exercises/README.md)
