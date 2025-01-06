@@ -3,25 +3,25 @@
   <app-title caption="How are you?" />
 </div>
 <div class="colors-area">
-    <app-string-selector/>
+    <app-string-selector 
+        [options]="colors()"
+        [selected]="selectedColor()"
+        (selectedChange)="selectedColor.set($event)"
+        />
 </div>
 
 <div class="fonts-area">
-    @for(item of fonts(); track $index) {
-        <div class="item"
-            (click)="selectFont(item)"
-            [class.chosen]="item === selectedFont()"
-        >{{item}}</div>
-    }
+    <app-string-selector 
+        [options]="fonts()"
+        [(selected)]="selectedFont"
+        />
 </div>
 
 <div class="sizes-area">
-    @for(item of sizes(); track $index) {
-        <div class="item"
-            (click)="selectSize(item)"
-            [class.chosen]="item === selectedSize()"
-        >{{item}}</div>
-    }
+    <app-string-selector 
+        [options]="sizes()"
+        [(selected)]="selectedSize"
+        />
 </div>
 
 <div class="text-area">

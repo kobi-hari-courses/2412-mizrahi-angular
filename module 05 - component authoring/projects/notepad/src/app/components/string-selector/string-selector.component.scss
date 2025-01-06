@@ -1,0 +1,22 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+
+    
+    .item {
+        border: 1px solid lightgray;
+        padding: 2px 6px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .item:hover {
+        background-color: lightgray
+    }
+    
+    .item.chosen {
+        background-color: lightgreen;
+    }
+}

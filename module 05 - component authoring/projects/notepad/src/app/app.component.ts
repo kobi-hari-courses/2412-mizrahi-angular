@@ -20,16 +20,16 @@ export class AppComponent {
   readonly selectedSize = signal(this.sizes()[0]);
 
   // actions
-  selectColor(value: string) {
-    this.selectedColor.set(value);
-  }
+  // selectColor(value: string) {
+  //   this.selectedColor.set(value);
+  // }
 
-  selectFont(value: string) {
-    this.selectedFont.set(value);
-  }
+  // selectFont(value: string) {
+  //   this.selectedFont.set(value);
+  // }
 
-  selectSize(value: string) {
-    this.selectedSize.set(value);
-  }
+  // selectSize(value: string) {
+  //   this.selectedSize.set(value);
+  // }
 
 }

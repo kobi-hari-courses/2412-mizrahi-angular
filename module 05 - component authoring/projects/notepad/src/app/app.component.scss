@@ -4,12 +4,6 @@
     grid-template-rows: auto auto 1fr;
 }
 
-.fonts-area, .sizes-area, .colors-area {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    padding: 8px;
-}
 
 .title-area {
     grid-row: 1;
@@ -29,19 +23,4 @@ textarea {
     resize: none;
     outline: 0px transparent;
     border: 0px transparent;
-}
-
-.item {
-    border: 1px solid lightgray;
-    padding: 2px 6px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.item:hover {
-    background-color: lightgray
-}
-
-.item.chosen {
-    background-color: lightgreen;
 }

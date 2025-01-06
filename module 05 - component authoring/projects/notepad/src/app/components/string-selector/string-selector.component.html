@@ -1,1 +1,6 @@
-<p>string-selector works!</p>
+@for(item of options(); track $index) {
+    <div class="item"
+        (click)="onSelect(item)"
+        [class.chosen]="item === selected()"
+    >{{item}}</div>
+}
