@@ -1,4 +1,4 @@
-# Exercises for module 04
+# Exercises for module 05
 
 ## Exercise 1 - `input`, `output` and `model` in angular 18
 
