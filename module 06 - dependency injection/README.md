@@ -1,4 +1,4 @@
-# Module 05 - Introduction to Dependency Injection
+# Module 06 - Introduction to Dependency Injection
 ## Projects:
 |     |     |
 | --- | --- |
