@@ -5,7 +5,7 @@ import { CounterComponent } from './components/counter/counter.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CounterComponent],
+  imports: [CounterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -14,5 +14,11 @@ export class AppComponent {
 
   changeValue(index: number, newValue: number) {
     this.data.update(ar => ar.map((v, i) => i === index ? newValue : v));
+
+    // this.data.update(ar => {
+    //   const newArray = [...ar];
+    //   newArray[index] = newValue;
+    //   return newArray;
+    // })
   }
 }
