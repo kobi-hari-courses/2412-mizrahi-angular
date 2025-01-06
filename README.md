@@ -35,3 +35,7 @@ All home exercises are in the [Home Exercises Repo](https://github.com/kobi-hari
     * [Blog Post App](https://github.com/kobi-hari-courses/modern-angular-exercises/tree/main/ex04-angular-components)
     * [Quiz App](https://github.com/kobi-hari-courses/modern-angular-exercises/tree/main/ex05-angular-components)
 
+### Module 06 - Dependency Injection
+* [Daily Summary](./module%2006%20-%20dependency%20injection/README.md)
+* [Class Exercise](./module%2006%20-%20dependency%20injection/exercises/README.md)
+
