@@ -21,21 +21,21 @@ All home exercises are in the [Home Exercises Repo](https://github.com/kobi-hari
 * [Daily Summary](./module%2003%20-%20hello%20angular/README.md)
 * [Class Exercise](./module%2003%20-%20hello%20angular/exercises/README.md)
 
-### Module 04 - Signals
+## Module 04 - Signals
 * [Daily Summary](./module%2004%20-%20signals/README.md)
 * [Class Exercises](./module%2004%20-%20signals/exercises/README.md)
 * Home Exercises
     * [Todo App - Basic Angular](https://github.com/kobi-hari-courses/modern-angular-exercises/blob/main/ex02-angular-basics/README.md)
     * [Guessing Game App - Basic Angular](https://github.com/kobi-hari-courses/modern-angular-exercises/tree/main/ex03-angular-basics)
 
-### Module 05 - Component Authoring
+## Module 05 - Component Authoring
 * [Daily Summary](./module%2005%20-%20component%20authoring/README.md)
 * [Class Exercise](./module%2005%20-%20component%20authoring/exercises/README.md)
 * Home Exercises
     * [Blog Post App](https://github.com/kobi-hari-courses/modern-angular-exercises/tree/main/ex04-angular-components)
     * [Quiz App](https://github.com/kobi-hari-courses/modern-angular-exercises/tree/main/ex05-angular-components)
 
-### Module 06 - Dependency Injection
+## Module 06 - Dependency Injection
 * [Daily Summary](./module%2006%20-%20dependency%20injection/README.md)
 * [Class Exercise](./module%2006%20-%20dependency%20injection/exercises/README.md)
 
