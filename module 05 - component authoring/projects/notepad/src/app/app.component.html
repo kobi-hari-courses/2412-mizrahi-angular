@@ -1,13 +1,9 @@
 <div class="title-area">
-    My Amazing Notepad
+  <app-title caption="Hello World" [color]="selectedColor()"/>
+  <app-title caption="How are you?" />
 </div>
 <div class="colors-area">
-    @for(item of colors(); track $index) {
-        <div class="item"
-            (click)="selectColor(item)"
-            [class.chosen]="item === selectedColor()"
-        >{{item}}</div>
-    }
+    <app-string-selector/>
 </div>
 
 <div class="fonts-area">

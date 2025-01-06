@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { TitleComponent } from './components/title/title.component';
+import { StringSelectorComponent } from './components/string-selector/string-selector.component';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [TitleComponent, StringSelectorComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
