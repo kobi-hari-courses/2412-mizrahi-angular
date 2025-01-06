@@ -28,3 +28,10 @@ All home exercises are in the [Home Exercises Repo](https://github.com/kobi-hari
     * [Todo App - Basic Angular](https://github.com/kobi-hari-courses/modern-angular-exercises/blob/main/ex02-angular-basics/README.md)
     * [Guessing Game App - Basic Angular](https://github.com/kobi-hari-courses/modern-angular-exercises/tree/main/ex03-angular-basics)
 
+### Module 05 - Component Authoring
+* [Daily Summary](./module%2005%20-%20component%20authoring/README.md)
+* [Class Exercise](./module%2005%20-%20component%20authoring/exercises/README.md)
+* Home Exercises
+    * [Blog Post App](https://github.com/kobi-hari-courses/modern-angular-exercises/tree/main/ex04-angular-components)
+    * [Quiz App](https://github.com/kobi-hari-courses/modern-angular-exercises/tree/main/ex05-angular-components)
+
