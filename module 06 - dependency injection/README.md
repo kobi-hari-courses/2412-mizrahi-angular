@@ -3,6 +3,7 @@
 |     |     |
 | --- | --- |
 | [DI](./projects//fun-with-di/) | Dependency Injection in Angular 14+ |
+| [Advanced Di]()
 
 
 ### Introduction to Dependency Injection 
@@ -33,8 +34,15 @@
     * We can create a new constant of type  `InjectionToken` to serve as alternative token.
     * We can use the `useValue` and `useFactory` providers to set the value of the token
     * We consume the token using the `@Inject` decorator
+  
+### The `DestroyRef` object
+* We saw that we now no longer need the `OnDestroy` lifecycle hook, and instead can use the `DestroyRef`
+* We saw how to use it to register cleanup logic
+* We saw that every injector has this feature, so it is not neccessarily a component feature
 
 ### The `inject` function
 * Starting with angular 14, we can inject using the `inject` function instead of using constructor parameters
 * We saw that we can only use it during "injection context" which means that it can only be called when we are inside a constructor or initializer.
 * We saw that we can "trigger" an artifical injection context by storing the `Injector` and then calling the `runInInjectionContext` function
+* We saw that util functions can use this approach to implement their own cleanup logic using the `DestroyRef`
+
