@@ -5,10 +5,14 @@ import { randomColorQuiz } from "./helpers";
 
 @Injectable({providedIn: 'root'})
 export class ColorQuizGeneratorService {
-    createRandomQuiz(): Observable<Question[]> {
+    createRandomQuizWithDelay(): Observable<Question[]> {
         return of(1).pipe(
             map(_ => randomColorQuiz()), 
             delay(2000)
         );        
-    }    
+    } 
+    
+    createRandomQuiz(): Question[] {
+        return randomColorQuiz();
+    }
 }
