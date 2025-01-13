@@ -8,7 +8,7 @@ import { SharedModule } from '../../shared.module';
     styleUrl: './progress.component.scss'
 })
 export class ProgressComponent {
-  readonly value = signal(4);
+  readonly value = signal(3);
 
   readonly max = signal(9);
 
