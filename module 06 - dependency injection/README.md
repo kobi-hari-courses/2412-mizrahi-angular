@@ -2,8 +2,9 @@
 ## Projects:
 |     |     |
 | --- | --- |
-| [DI](./projects//fun-with-di/) | Dependency Injection in Angular 14+ |
-| [Advanced Di]()
+| [DI](./projects//fun-with-di/) | Dependency Injection in Angular 14- |
+| [Advanced Di](./projects/advanced-di/) | Dependency Injection in Angular 14 + |
+| [App with Service](./projects/counter-app/) | Application with Service, demonstrating signals and DI |
 
 
 ### Introduction to Dependency Injection 
@@ -45,4 +46,9 @@
 * We saw that we can only use it during "injection context" which means that it can only be called when we are inside a constructor or initializer.
 * We saw that we can "trigger" an artifical injection context by storing the `Injector` and then calling the `runInInjectionContext` function
 * We saw that util functions can use this approach to implement their own cleanup logic using the `DestroyRef`
+
+### Signal Effects
+* We saw how to react to signals using `effect`
+* We understood that you cannot call effect anywhere but in the constructor, becuase the effect requires injection context
+
 
