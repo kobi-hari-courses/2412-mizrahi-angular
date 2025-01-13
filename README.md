@@ -39,3 +39,9 @@ All home exercises are in the [Home Exercises Repo](https://github.com/kobi-hari
 * [Daily Summary](./module%2006%20-%20dependency%20injection/README.md)
 * [Class Exercise](./module%2006%20-%20dependency%20injection/exercises/README.md)
 
+## Module 07 - NgRx Signal Store
+* [Daily Summary](./module%2007%20-%20ngrx%20signal%20store/README.md)
+* [Class Exercise](./module%2007%20-%20ngrx%20signal%20store/exercises/README.md)
+* Home Exercise
+    * [Todo App with NgRx Signals](https://github.com/kobi-hari-courses/modern-angular-exercises/blob/main/ex06-ngrx-signals)
+
