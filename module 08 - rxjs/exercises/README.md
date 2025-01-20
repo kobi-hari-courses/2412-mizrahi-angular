@@ -27,7 +27,7 @@ Learn how to create cold observables, subscribe to them using observer objects, 
 ## Exercise 2: Getting familiar with Operators
 
 ### Objective:
-Practice using RXJS operators like `map()`, `filter()`, and combining multiple observables.
+Practice using RXJS operators like `map()`, `filter()` and combining multiple observables.
 
 ### Steps:
 1. **Creating Multiple Observables**:  
@@ -39,7 +39,7 @@ Practice using RXJS operators like `map()`, `filter()`, and combining multiple o
 3. **Using `filter()` to Filter Values**:  
    Filter the emitted values to only include numbers greater than `2`.
 
-## Exercise 3: Working with `map`, `take`, and `filter` Operators
+## Exercise 3: Composing observables using operators
 
 ### Objective:
 Practice using the `map`, `take`, and `filter` operators to manipulate observables.
