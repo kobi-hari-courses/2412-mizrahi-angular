@@ -61,13 +61,3 @@ Practice using the `map`, `take`, and `filter` operators to manipulate observabl
 5. **Subscribing and Logging Results**:  
    Subscribe to the observable and log the transformed and filtered values as they are emitted.
 
----
-
-# Exercise 4: Working with `switchMap`, `concatMap`
-
-### Objective:
-Learn how to use the `switchMap` operator to switch to a new observable based on previous emissions.
-
-### Steps:
-
-

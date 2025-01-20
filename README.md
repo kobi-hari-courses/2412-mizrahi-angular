@@ -45,3 +45,10 @@ All home exercises are in the [Home Exercises Repo](https://github.com/kobi-hari
 * Home Exercise
     * [Todo App with NgRx Signals](https://github.com/kobi-hari-courses/modern-angular-exercises/blob/main/ex06-ngrx-signals)
 
+## Module 08 - RxJS
+* [Daily Summary](./module%2008%20-%20rxjs/README.md)
+* [Class Exercise](./module%2008%20-%20rxjs/exercises/README.md)
+
+## Module 09 - Http
+
+## Module 10 - rxMethod in Signal Store
