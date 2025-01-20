@@ -1,11 +1,12 @@
-## Module 08 - RxJS, 
-### Projects:
+# Module 08 - RxJS 
+## Projects:
 |     |     |
 | --- | --- |
 | [fun-with-rxjs](./projects/fun-with-rxjs/) | Introduction to rxjs main classes and concepts |
 
 
-### Introduction to RxJS
+## Summary
+### Introduction the RxJS
 * We understood the meaning of a `Stream`
 ![](images/00.jpeg)
 * We defined what an `Observer<T>` is and understood that it has 3 methods
@@ -37,7 +38,7 @@
 * We learned about `BehaviorSubject` and understood that it is just a subject that sends the latest event to a new observer on the moment of subscription
 ![](images/04.jpeg)
 
-#### Introduction to `RxJS` operators
+### Introduction to `RxJS` operators
 * We talked about the concept of operators in math, strings and arrays
 * We understood that RxJS operators create observables. 
 * We saw 4 documentation web sites that serve as reference guide for reactive operators
@@ -52,37 +53,3 @@
     * [take](https://rxjs-dev.firebaseapp.com/api/operators/take)
 * We created an example that uses observable to convert color search keyword into a list of matching results (colors)
 * We used the `map` operator to convert user input to results
-
-#### Flatteners
-* We talked about **Higher Order Observables** - `Observable<Observable<T>>`
-* We saw how to create higher order observable using the `map` operator along with a factory method.
-
-```typescript
-const order1$ = interval(1000);
-const order2$ = order1$.pipe(
-    map(i => interval(1000))
-);
-
-/*
-    order2$ is of type Observable<Observable<number>>
-*/
-```
-
-* We understood why it's a bad practice to use `subscribe` inside `subscribe`, and therefore why it's important to "Flatten" the observable.
-* We saw 4 types of flattening operators:
-    - `mergeAll`, and `mergeMap` - Merges all `nexts` from all inner observables
-    - `switchAll`, and `switchMap` - Subscribes always to the latest observable
-    - `concatAll` and `concatMap` - Subscribes to the observables one after the other sequentially
-    - `exhaustAll` and `exhaustMap` - Subscribes to observables until completion only when idle
-
-#### `rxMethod`
-- We understood what `rxMethod` is - we understood that it is a method that accepts 3 types of input
-    - T
-    - Observable<T>
-    - Signal<T>
-- We understood that it accepts a method as parameter
-- We understood that the method accepts an observable and should respond to it using operators
-- We saw that we can use `rxMethod` for integration between signal store and reactive services (asyncronous services)
-- We saw how to connect `http` with signal store
-
-

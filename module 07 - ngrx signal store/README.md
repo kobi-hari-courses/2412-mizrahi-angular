@@ -1,4 +1,4 @@
-# NgRx Signal store - Getting Started
+# Module 07 - NgRx Signal store - Getting Started
 ## Projects:
 |     |     |
 | --- | --- |
