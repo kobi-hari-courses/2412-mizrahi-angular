@@ -1,0 +1,13 @@
+<div class="toolbar">
+  <input type="search" #searchBox 
+    (input)="store.searchColors(searchBox.value)"
+  />
+  @if(store.isBusy()) {<img src="spinner.gif"/>}
+</div>
+<div class="results">
+    @for(item of store.results(); track $index) {
+        <div
+            [style.background]="item.code"
+        >{{item.name}}</div>
+    }
+</div>

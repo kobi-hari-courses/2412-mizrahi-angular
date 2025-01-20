@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { AppStore } from './store/app.store';
+import { DataService } from './services/data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'colors-app';
+  readonly store = inject(AppStore);
 }
