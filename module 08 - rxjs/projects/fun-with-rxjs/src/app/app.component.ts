@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { BehaviorSubject, interval, Observable, Observer, of, ReplaySubject, Subject, timer } from 'rxjs';
+import { BehaviorSubject, interval, map, Observable, Observer, of, ReplaySubject, Subject, take, timer } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -87,7 +87,10 @@ export class AppComponent {
     const observerB = this.createObserver('B');
     const observerC = this.createObserver('C');
 
-    const observable = this.createReplayCustomSubject();
+    const observable = this.createInterval().pipe(
+      map(i => i * -1), 
+      take(5)
+    );
 
     console.log('Subscribing observer A');
     observable.subscribe(observerA);
