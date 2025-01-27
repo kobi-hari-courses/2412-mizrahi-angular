@@ -55,3 +55,4 @@ All home exercises are in the [Home Exercises Repo](https://github.com/kobi-hari
 
 ## Module 10 - Routing
 * [Daily Summary](./module%2010%20-%20routing/README.md)
+* [Class Exercise](./module%2010%20-%20routing/exercises/README.md)
