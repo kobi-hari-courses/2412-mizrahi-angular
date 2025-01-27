@@ -1,4 +1,6 @@
 :host {
-    display: flex;
-    flex-direction: column;
+    flex: 1;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+
 }

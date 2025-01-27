@@ -1,1 +1,9 @@
-<p>movies-list works!</p>
+<div class="container">
+    @if (store.isBusy()) {
+        <app-busy></app-busy>
+    }
+    
+    @for (movie of store.movies(); track movie.id) {
+        <div class="movie">{{movie.name}}</div>
+    }    
+</div>

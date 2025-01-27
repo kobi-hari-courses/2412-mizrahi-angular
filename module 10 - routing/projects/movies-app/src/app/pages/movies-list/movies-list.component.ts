@@ -1,11 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { MoviesListStore } from './store/movies-list.store';
+import { BusyComponent } from '../../components/busy/busy.component';
 
 @Component({
   selector: 'app-movies-list',
-  imports: [],
+  imports: [BusyComponent],
   templateUrl: './movies-list.component.html',
-  styleUrl: './movies-list.component.scss'
+  styleUrl: './movies-list.component.scss', 
+  providers: [MoviesListStore]
 })
-export class MoviesListComponent {
+export default class MoviesListComponent {
+  readonly store = inject(MoviesListStore);
 
 }

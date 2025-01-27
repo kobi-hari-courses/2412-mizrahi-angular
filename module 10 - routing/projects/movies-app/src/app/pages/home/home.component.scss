@@ -1,0 +1,33 @@
+:host {
+    display: block;
+    background: linear-gradient(135deg, var(--p-1), var(--p-5), var(--p-9));
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--p-3);
+    background: linear-gradient(45deg, var(--p-1), var(--p-5), var(--p-9));
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  
+    &::before {
+      content: '🎉';
+      font-size: 2rem;
+      margin-right: 10px;
+    }
+  
+    &::after {
+      content: '🎉';
+      font-size: 2rem;
+      margin-left: 10px;
+    }
+  }
+  
