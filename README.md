@@ -56,3 +56,13 @@ All home exercises are in the [Home Exercises Repo](https://github.com/kobi-hari
 ## Module 10 - Routing
 * [Daily Summary](./module%2010%20-%20routing/README.md)
 * [Class Exercise](./module%2010%20-%20routing/exercises/README.md)
+* [Home Exercise](https://github.com/kobi-hari-courses/modern-angular-exercises/blob/main/ex08-routing/README.md)
+
+## Module 11 - Custom Directives
+* [Daily Summary](./module%2011%20-%20directives/README.md)
+
+
+# Additional advanced online courses
+- [Modern Angular with Signals - the missing guide](https://www.udemy.com/course/modern-angular-with-signals-the-missing-guide/?referralCode=D6E6DCE04E9A41ADC517)
+- [NgRx signal store - the missing guide](https://www.udemy.com/course/ngrx-signal-store-the-missing-guide/?referralCode=05384AF83051655A1C59)
+
