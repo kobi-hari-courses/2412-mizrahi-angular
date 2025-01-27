@@ -1,0 +1,17 @@
+:host {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--p-3);
+
+    a {
+        color: var(--p-6);
+        background-color: var(--p-3);
+        padding: 4px;
+        text-decoration: none;
+
+        &.here {
+            color: var(--p-3);
+            background-color: var(--p-6);
+        }
+    }
+}
