@@ -1,3 +1,12 @@
 <a routerLinkActive="here" routerLink="home">Home</a>
 <a routerLinkActive="here" routerLink="movies">Movies</a>
 <a routerLinkActive="here" routerLink="actors">Actors</a>
+<a routerLinkActive="here" routerLink="account">Accunt</a>
+
+<div class="user">
+    @if(auth.value()) { 
+        Logged In
+    } @else {
+        Logged Out
+    }
+</div>

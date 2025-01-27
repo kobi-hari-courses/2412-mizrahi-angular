@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, computed, inject, input } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import { map } from 'rxjs';
 import { MovieDetailsStore } from './store/movie-details.store';
 import { BusyComponent } from "../../components/busy/busy.component";
@@ -8,7 +8,7 @@ import { BASE_URL } from '../../tokens/base-url.token';
 
 @Component({
   selector: 'app-movie-details',
-  imports: [CommonModule, BusyComponent],
+  imports: [CommonModule, BusyComponent, RouterModule],
   templateUrl: './movie-details.component.html',
   styleUrl: './movie-details.component.scss',
   providers: [MovieDetailsStore]

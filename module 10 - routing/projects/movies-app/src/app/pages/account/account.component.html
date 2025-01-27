@@ -1,0 +1,5 @@
+@if(auth.value()) {
+    <button (click)="auth.logout()">Logout</button>
+} @else {
+    <button (click)="auth.login()">Login</button>
+}
