@@ -52,3 +52,6 @@ All home exercises are in the [Home Exercises Repo](https://github.com/kobi-hari
 ## Module 09 - Http and rxMethod in Signal Store
 * [Daily Summary](./module%2009%20-%20http%20and%20rxMethod/README.md)
 * [Home Exercise](https://github.com/kobi-hari-courses/modern-angular-exercises/tree/main/ex07-ngrx-rxjs-interop)
+
+## Module 10 - Routing
+* [Daily Summary](./module%2010%20-%20routing/README.md)
