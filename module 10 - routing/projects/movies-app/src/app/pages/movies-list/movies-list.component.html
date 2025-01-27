@@ -1,9 +1,18 @@
-<div class="container">
-    @if (store.isBusy()) {
-        <app-busy></app-busy>
-    }
-    
-    @for (movie of store.movies(); track movie.id) {
-        <div class="movie">{{movie.name}}</div>
-    }    
+<div class="list-area">
+    <div class="container">
+        @if (store.isBusy()) {
+            <app-busy></app-busy>
+        }
+        
+        @for (movie of store.movies(); track movie.id) {
+            <div class="movie"
+                [routerLink]="['/movies', movie.id]"
+                routerLinkActive="selected"
+            >{{movie.name}}</div>
+        }    
+    </div>    
 </div>
+<div class="details-area">
+    <router-outlet/>
+</div>
+

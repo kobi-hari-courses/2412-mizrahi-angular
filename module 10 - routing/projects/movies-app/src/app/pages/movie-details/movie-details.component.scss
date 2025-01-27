@@ -1,0 +1,52 @@
+:host {
+    background-color: var(--p-1);
+    border: 1px solid var(--p-4);
+    border-radius: 12px;
+    padding: 16px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px var(--p-4);
+    color: var(--p-9);
+    display: block;
+    position: relative;
+  
+    h1 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: var(--p-9);
+      margin-bottom: 12px;
+    }
+  
+    p {
+      font-size: 1rem;
+      color: var(--p-7);
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+  
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 400px;
+      height: auto;
+      border-radius: 8px;
+      border: 2px solid var(--p-3);
+    }
+  
+    &:hover {
+      background-color: var(--p-2);
+      box-shadow: 0 6px 12px var(--p-5);
+  
+      h1 {
+        color: var(--p-8);
+      }
+  
+      p {
+        color: var(--p-6);
+      }
+  
+      img {
+        border-color: var(--p-5);
+      }
+    }
+  }
+  
